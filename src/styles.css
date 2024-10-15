@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    width: 381px;
+    height: 353px;
+}
+
+.input-valor-conta{
+    width: 381px;
+    height: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select {
+    display: block;
+    margin-bottom: 15px;
+}

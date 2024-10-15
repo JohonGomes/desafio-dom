@@ -1,15 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Calculadora de divisão de conta da Patroni Pizzeria">
+    <title>Patroni Pizzeria</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
+    <main>
+        <header>
+            <img class="logo" src="./img/logopizzaria.png" alt="Logo Patroni Pizzeria">
+        </header>
+
+        <form id="calculadoraConta" action="#" method="post">
+            <div class="form-group">
+                <label for="valorDaConta">Valor Total da Conta:</label>
+                <input type="number" name="valorDaConta" id="valorDaConta" step="0.01" min="0" required>
+            </div>
+
+            <div class="form-group">
+                <label for="taxaServico">Incluir taxa de Serviço?</label>
+                <select id="taxaServico" name="taxaServico" required>
+                    <option value="">Selecione uma opção</option>
+                    <option value="sim">Sim</option>
+                    <option value="nao">Não</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="qtdPagantes">Quantidade de Pagantes:</label>
+                <select id="qtdPagantes" name="qtdPagantes" required>
+                    <option value="">Selecione a quantidade</option>
+                    <option value="01">01</option>
+                    <option value="02">02</option>
+                    <option value="03">03</option>
+                    <option value="04">04</option>
+                    <option value="05">05</option>
+                    <option value="06">06</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <button type="submit">Calcular</button>
+            </div>
+        </form>
+    </main>
 
     <script src="index.js"></script>
 </body>
-
 </html>
