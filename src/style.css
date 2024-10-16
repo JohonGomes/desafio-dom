@@ -1,0 +1,30 @@
+img{
+    width: 381px;
+    height: 353px;
+    top: 100px;
+    left: 192px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+body{
+    background: #FFFFFF;
+    width: 744px;
+    height: 1133px;
+    gap: 0px;
+    opacity: 0px;
+    top: -517px;
+    left: -1542px;
+}
+
+button{
+    border: solid 1px #284A5E;
+    border-radius: 4px;
+    background-color: #27485D;
+    width: 400px;
+    height: 40px;
+    color: #FFF;
+    Top: 1026px;
+    Left: 172px;
+    box-shadow: 0px 2px 2px 2px #CCCCCC1A;
+}

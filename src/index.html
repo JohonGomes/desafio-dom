@@ -4,10 +4,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+    <title>Patroni Pizzaria</title>
 </head>
 
 <body>
+    <main>
+        <header>
+        <img class="logo.png" src="./img/logopizzaria.png" alt="Patroni Pizzaria"/>
+        </header>
+        </div>
+        <form id="calculadoraConta" action="#" method="post">
+            <div class="form-group">
+              <label for="valorDaConta">Valor total da Conta:</label><br>
+            <input type="number" name="valorDaConta" id="valorDaConta" required><br>
+
+            <div class="form-group">
+            <label for="taxaServico">Incluir taxa de serviço?</label><br>
+            <select id="taxaServico" name="taxaServico">
+                <option value="sim">Sim</option>
+                <option value="nao">Não</option>
+            </select></div>
+
+            <div class="form-group">
+            <label for="quantPagantes">Quantidade total de pagantes?</label><br>
+            <select id="quantPagantes" name="quantPagantes">
+                <option value="01">01</option>
+                <option value="02">02</option>
+                <option value="03">03</option>
+                <option value="04">04</option>
+                <option value="05">05</option>
+                <option value="06">06</option>
+            </select></div><br>
+                <button type="submit">Calcular</button></button>
+        </div>
+    </main>
 
     <script src="index.js"></script>
 </body>
