@@ -1,55 +1,146 @@
-* {
+/* Reset básico e configurações globais */
+*, *::before, *::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-main{
-    margin: 75px 150px 75px 550px;
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
 }
 
-header{
-    margin-bottom: 30px;
-}
-.logo{
-    width: 381px;
-    height: 353px;
+/* Layout principal */
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
 }
 
-.input-valor-conta{
-    width: 381px;
-    height: 20px;
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #27475c;
+}
+
+/* Estilos do formulário */
+.form-group {
+    margin-bottom: 1.5rem;
 }
 
 label {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
 }
 
 input, select {
-    display: block;
-    margin-bottom: 15px;
-}
-
-.form-group select, input {
-    width: 47%;
-    padding: 8px;
+    width: 100%;
+    padding: 0.75rem;
     border: 1px solid #ccc;
     border-radius: 4px;
-    font-size: 16px;
-    background-color: #fff;
-    transition: border-color 0.3s ease;
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
-.form-group-button{
-    margin-top: 40px;
+input:focus, select:focus {
+    outline: none;
+    border-color: #27475c;
+    box-shadow: 0 0 0 2px rgba(39, 71, 92, 0.2);
 }
 
-.button{
-    width: 47%;
-    padding: 10px;
+/* Estilos para o fieldset da taxa de serviço */
+fieldset {
+    border: none;
+    padding: 0;
+    margin-bottom: 1.5rem;
+}
+
+legend {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.radio-group {
+    display: flex;
+    gap: 1rem;
+}
+
+.radio-group label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.radio-group input[type="radio"] {
+    width: auto;
+    margin-right: 0.5rem;
+}
+
+/* Estilo do botão */
+.button {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    border: none;
     border-radius: 4px;
-    font-size: 16px;
+    font-size: 1rem;
+    font-weight: bold;
     color: #fff;
-    background-color: #27475c
+    background-color: #27475c;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover, .button:focus {
+    background-color: #1c3344;
+}
+
+/* Estilo para o texto de ajuda */
+.help-text {
+    font-size: 0.875rem;
+    color: #666;
+    margin-top: 0.25rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 0.875rem;
+    color: #666;
+}
+
+/* Media queries para responsividade */
+@media (max-width: 768px) {
+    main {
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .radio-group {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
 }
