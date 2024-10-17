@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+main{
+    margin: 75px 150px 75px 550px;
+}
+
+header{
+    margin-bottom: 30px;
+}
 .logo{
     width: 381px;
     height: 353px;
@@ -22,4 +29,27 @@ label {
 input, select {
     display: block;
     margin-bottom: 15px;
+}
+
+.form-group select, input {
+    width: 47%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #fff;
+    transition: border-color 0.3s ease;
+}
+
+.form-group-button{
+    margin-top: 40px;
+}
+
+.button{
+    width: 47%;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #27475c
 }
