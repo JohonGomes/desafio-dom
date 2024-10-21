@@ -42,9 +42,20 @@
             </div>
 
             <div class="form-group-button">
-                <button class="button" type="submit">CALCULAR</button>
+                <button class="button" id="button-calcular" type="submit">CALCULAR</button>
             </div>
         </form>
+
+        <dialog id="dialog">
+                <h2>Esse pagamento terá desconto?</h2>
+                <p>Apenas para contas pagas com DINHEIRO, DÉBITO ou PIX!</p>
+                <div class="button-modal">
+                    <button class="btn-modal" id="button-sim">Sim</button>
+                    <button class="btn-modal" id="button-nao">Não</button>
+                    <button class="btn-modal" id="button-fechar">Fechar</button>  
+                </div>
+                
+        </dialog>
     </main>
 
     <script src="index.js"></script>
