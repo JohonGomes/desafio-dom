@@ -127,7 +127,7 @@ footer {
 }
 
 dialog::backdrop{
-    background-color: #ffffffa2;
+    background-color: #f3ecdac5;
 }
 
 dialog{
@@ -137,7 +137,7 @@ dialog{
     border: none;
     border-radius: .5rem;
     box-shadow: 0 0 1em;
-    background-color: #c07062d0
+    background-color: #ffffffc5
 }
 
 .button-modal {
@@ -145,7 +145,6 @@ dialog{
     gap: 50px;
     justify-content: center;
     padding: 10px;
-
 }
 
 dialog h2{
@@ -162,6 +161,7 @@ dialog h2{
     border-radius: 10px;
     cursor: pointer;
 }
+
 
 /* Media queries para responsividade */
 @media (max-width: 768px) {
