@@ -26,8 +26,8 @@ btnModal2Close.onclick = function (){
     modal2.close();
 }
 
-//
-//modal2 - nao
+
+//modal3 - nao
 const btnModal3 = document.getElementById("button-nao");
 const modal3 = document.getElementById("modal3");
 const btnModal3Close = document.getElementById("bt-fechar-modal3");

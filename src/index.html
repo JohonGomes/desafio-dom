@@ -38,6 +38,10 @@
                     <option value="04">04</option>
                     <option value="05">05</option>
                     <option value="06">06</option>
+                    <option value="07">07</option>
+                    <option value="08">08</option>
+                    <option value="09">09</option>
+                    <option value="10">10</option>
                 </select>
             </div>
 
@@ -47,27 +51,33 @@
         </form>
 
         <dialog class="modal" id="modal">
+                <div class="btn-fechar">
+                <button class="btn-modal-fechar" id="button-fechar">X</button>  
+                </div>                 
                 <h2>Esse pagamento terá desconto?</h2>
                 <p>Apenas para contas pagas com DINHEIRO, DÉBITO ou PIX!</p>
                 <div class="button-modal">
                     <button class="btn-modal" id="button-sim">Sim</button>
                     <button class="btn-modal" id="button-nao">Não</button>
-                    <button class="btn-modal" id="button-fechar">Fechar</button>  
                 </div>
         </dialog>
 
-        <dialog id="modal2">
-            <button id="bt-fechar-modal2">X</button>
+        <dialog class="modal2" id="modal2">
+            <div class="btn-fechar">
+                <button class="btn-modal-fechar" id="bt-fechar-modal2">X</button>  
+            </div>                
             <h2>Valor da Conta:</h2>
-            <p>Desconto aplicado!</p>
+            <h5>Desconto aplicado!</h5><br>
             <p>Total de Consumo R$:</p>
             <p>Taxa de Serviço R$:</p>
             <p>Total por Pessoa R$:</p>
         </dialog>
 
-        <dialog id="modal3">
-            <button id="bt-fechar-modal3">X</button>
-            <h2>Valor da Conta:</h2>
+        <dialog class="modal3" id="modal3">
+            <div class="btn-fechar">
+                <button class="btn-modal-fechar" id="bt-fechar-modal3">X</button>  
+            </div>                 
+            <h2>Valor da Conta:</h2><br>
             <p>Total de Consumo R$:</p>
             <p>Taxa de Serviço R$:</p>
             <p>Total por Pessoa R$:</p>

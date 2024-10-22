@@ -130,14 +130,60 @@ dialog::backdrop{
     background-color: #f3ecdac5;
 }
 
-dialog{
-    max-width: 800px;
+.modal{
+    width: 800px;
     margin: 2rem auto;
-    padding: 5rem;
+    padding: 4rem;
     border: none;
     border-radius: .5rem;
     box-shadow: 0 0 1em;
     background-color: #ffffffc5
+}
+
+.modal p{
+    text-align: center;
+}
+
+.modal2{
+    width: 800px;
+    margin: 2rem auto;
+    padding: 4rem;
+    border: none;
+    border-radius: .5rem;
+    box-shadow: 0 0 1em;
+    background-color: #ffffffc5;
+}
+
+.modal2 h5{
+    text-align: center;
+    color: green;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.modal2 p{
+    text-align: center;
+}
+
+.modal3{
+    width: 800px;
+    margin: 2rem auto;
+    padding: 4rem;
+    border: none;
+    border-radius: .5rem;
+    box-shadow: 0 0 1em;
+    background-color: #ffffffc5;
+}
+
+.modal3 h5{
+    text-align: center;
+    color: green;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.modal3 p{
+    text-align: center;
 }
 
 .button-modal {
@@ -159,9 +205,24 @@ dialog h2{
     font-weight: 600;
     border: none;
     border-radius: 10px;
-    cursor: pointer;
+    cursor: pointer;    
 }
 
+.btn-fechar{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-modal-fechar{
+    background-color: #fcca6581;
+    border-radius: 100px;
+    border: none;
+    width: 35px;
+    height: 35px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-weight: 600;
+}
 
 /* Media queries para responsividade */
 @media (max-width: 768px) {
