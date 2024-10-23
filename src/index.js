@@ -1,4 +1,4 @@
-// modal desconto
+// modal1 desconto
 const btnModal = document.getElementById("button-calcular"); //abrir
 const modal = document.getElementById("modal");
 const btnModalClose = document.getElementById("button-fechar")
@@ -25,7 +25,6 @@ btnModal2.onclick = function(){
 btnModal2Close.onclick = function (){
     modal2.close();
 }
-
 
 //modal3 - nao
 const btnModal3 = document.getElementById("button-nao");
