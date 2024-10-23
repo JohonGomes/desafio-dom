@@ -34,6 +34,7 @@ Você pode aprofundar mais nos conceitos de **condicionais** e **loops** nos lin
 
 ## O objetivo deste projeto é praticar os seguintes conceitos:
 
+- **Entrada e saída de dados** em JavaScript utilizando a biblioteca `readline-sync`.
 - **Manipulação de variáveis e constantes** em JavaScript.
 - **Operações matemáticas** para cálculos de valores e descontos.
 - **Versionamento de código** usando Git e GitHub para colaborar e compartilhar o código do projeto.
